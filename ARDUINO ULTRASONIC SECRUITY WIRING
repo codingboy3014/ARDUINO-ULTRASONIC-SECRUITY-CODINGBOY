@@ -1,0 +1,20 @@
+Components
+Arduino Uno
+Ultrasonic Sensor (HC-SR04)
+LED or Buzzer
+Resistor (220Ω for LED)
+Jumper wires
+Breadboard (optional)
+Wiring
+Ultrasonic Sensor (HC-SR04):
+
+
+WIRING
+VCC → 5V on Arduino
+GND → GND on Arduino
+TRIG → Digital Pin 9 on Arduino
+ECHO → Digital Pin 10 on Arduino
+LED (or Buzzer):
+
+Positive leg (longer leg of LED or positive terminal of buzzer) → Digital Pin 8 on Arduino
+Negative leg (shorter leg of LED or negative terminal of buzzer) → GND on Arduino (with 220Ω resistor if using LED)
